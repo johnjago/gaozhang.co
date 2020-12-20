@@ -54,11 +54,11 @@
   }
 
   &__post {
-    padding: 20px 0;
-
-    &:not(:last-of-type) {
-      border-bottom: 1px solid var(--border-color);
+    &:first-of-type {
+      padding-top: 20px;
     }
+
+    padding-top: 10px;
 
     &-title {
       margin: 5px 0;

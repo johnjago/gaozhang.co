@@ -1,5 +1,5 @@
 baseurl = "/"
-languageCode = "en-us"
+defaultContentLanguage="zh-cn"
 theme = "hello-friend"
 paginate = 5
 
@@ -9,13 +9,13 @@ paginate = 5
   contentTypeName = "posts"
 
   # "light" or "dark"
-  defaultTheme = "dark"
+  defaultTheme = "light"
 
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 2
 
   # Show reading time in minutes for posts
-  showReadingTime = false
+  showReadingTime = true
 
   # Show table of contents at the top of your posts (defaults to false)
   # Alternatively, add this param to post front matter for specific posts
@@ -26,37 +26,31 @@ paginate = 5
   # rssFullText = true
 
 [languages]
-  [languages.en]
-    title = "Hello Friend"
-    subtitle = "A simple theme for Hugo"
+  [languages.zh-cn]
+    title = "小笔记"
+    subtitle = "从编程中学到的教训"
     keywords = ""
-    copyright = ""
     menuMore = "Show more"
     writtenBy = "Written by"
     readMore = "Read more"
-    readOtherPosts = "Read other posts"
+    readOtherPosts = "看别的"
     newerPosts = "Newer posts"
     olderPosts = "Older posts"
-    minuteReadingTime = "min read"
+    minuteReadingTime = "分钟读"
     dateFormatSingle = "2006-01-02"
-    dateFormatList = "2006-01-02"
     # leave empty to disable, enter display text to enable
     # lastModDisplay = ""
 
-    [languages.en.params.logo]
-      logoText = "hello friend"
+    [languages.zh-cn.params.logo]
+      logoText = "从编程中学到的教训"
       logoHomeLink = "/"
     # or
     #
     # path = "/img/your-example-logo.svg"
     # alt = "Your example logo alt text"
 
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+    [languages.zh-cn.menu]
+      [[languages.zh-cn.menu.main]]
+        identifier = "en"
+        name = "英文博文"
+        url = "https://johnjago.com/blog"
