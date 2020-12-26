@@ -10,12 +10,10 @@ const join = (...paths) => path.join(__dirname, ...paths);
 
 module.exports = (env, { mode, watch }) => ({
   resolve: {
-    extensions: [".js", ".css"],
+    extensions: [".css"],
     modules: ["assets", "node_modules"],
   },
   entry: {
-    main: [join("assets", "js", "menu.js"), join("assets", "js", "theme.js")],
-    prism: join("assets", "js", "prism.js"),
     style: join("assets", "css", "style.css"),
   },
   output: {
