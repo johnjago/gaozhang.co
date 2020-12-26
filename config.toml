@@ -28,7 +28,7 @@ paginate = 5
 [languages]
   [languages.zh-cn]
     title = "小笔记"
-    subtitle = "从编程中学到的教训"
+    subtitle = ""
     keywords = ""
     menuMore = "Show more"
     writtenBy = "Written by"
@@ -42,7 +42,7 @@ paginate = 5
     # lastModDisplay = ""
 
     [languages.zh-cn.params.logo]
-      logoText = "从编程中学到的教训"
+      logoText = "小笔记"
       logoHomeLink = "/"
     # or
     #
