@@ -1,56 +1,16 @@
-baseurl = "/"
-defaultContentLanguage="zh-cn"
-theme = "hello-friend"
-paginate = 5
+baseURL = "/"
+languageCode = "zh-cn"
+title = "小笔记"
+theme = "timeless"
 
 [params]
-  # dir name of your blog content (default is `content/posts`).
-  # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
+  description = "学语言的小笔记。小心：常常我不知道我在做什么。"
+  footerSymbol = "&"
+  allPostsText = "阅读更多"
+  serif = false
 
-  # "light" or "dark"
-  defaultTheme = "light"
-
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
-
-  # Show reading time in minutes for posts
-  showReadingTime = true
-
-  # Show table of contents at the top of your posts (defaults to false)
-  # Alternatively, add this param to post front matter for specific posts
-  # toc = true
-
-  # Show full page content in RSS feed items
-  #(default is Description or Summary metadata in the front matter)
-  # rssFullText = true
-
-[languages]
-  [languages.zh-cn]
-    title = "小笔记"
-    subtitle = ""
-    keywords = ""
-    menuMore = "Show more"
-    writtenBy = "Written by"
-    readMore = "Read more"
-    readOtherPosts = "看别的"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    minuteReadingTime = "分钟读"
-    dateFormatSingle = "2006-01-02"
-    # leave empty to disable, enter display text to enable
-    # lastModDisplay = ""
-
-    [languages.zh-cn.params.logo]
-      logoText = "小笔记"
-      logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
-
-    [languages.zh-cn.menu]
-      [[languages.zh-cn.menu.main]]
-        identifier = "en"
-        name = "英文博文"
-        url = "https://johnjago.com/blog"
+[menu]
+  [[menu.main]]
+    name = "英文博文"
+    url = "https://johnjago.com/blog"
+    weight = 1
