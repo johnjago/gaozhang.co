@@ -11,6 +11,6 @@ theme = "timeless"
 
 [menu]
   [[menu.main]]
-    name = "英文博文"
+    name = "英文博客"
     url = "https://johnjago.com/blog"
     weight = 1
