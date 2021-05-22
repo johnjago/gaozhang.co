@@ -4,7 +4,7 @@ title = "小笔记"
 theme = "timeless"
 
 [params]
-  description = "学习语言的小笔记"
+  description = "生活中的小笔记"
   footerSymbol = "&"
   allPostsText = "阅读更多"
   serif = false
