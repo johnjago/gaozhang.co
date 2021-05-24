@@ -5,6 +5,7 @@ theme = "timeless"
 
 [params]
   description = "生活中的小笔记"
+  headerAllPostsText = "所有帖子"
   footerSymbol = "&"
   allPostsText = "阅读更多"
   serif = false
