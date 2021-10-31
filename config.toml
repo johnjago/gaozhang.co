@@ -15,3 +15,7 @@ theme = "timeless"
     name = "英文博客"
     url = "https://johnjago.com/blog"
     weight = 1
+  [[menu.main]]
+    name = "推特"
+    url = "https://twitter.com/johncjago"
+    weight = 2
