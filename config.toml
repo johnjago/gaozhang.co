@@ -2,6 +2,7 @@ baseURL = "/"
 languageCode = "zh-cn"
 title = "小笔记"
 theme = "timeless"
+rssLimit = 25
 
 [params]
   description = "生活中的小笔记"
