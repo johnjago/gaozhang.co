@@ -3,6 +3,7 @@ title: "别的职业也应该写博客"
 date: 2021-10-31
 type: "post"
 slug: "xie-boke"
+isCJKLanguage: true
 draft: false
 ---
 

@@ -3,6 +3,7 @@ title: "学习语言最难的部分"
 date: 2021-03-13
 type: "post"
 slug: "like"
+isCJKLanguage: true
 draft: false
 ---
 

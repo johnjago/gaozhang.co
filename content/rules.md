@@ -3,6 +3,7 @@ title: "规则不限制自由"
 date: 2021-09-26
 type: "post"
 slug: "rules"
+isCJKLanguage: true
 draft: false
 ---
 

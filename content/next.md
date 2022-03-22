@@ -3,6 +3,7 @@ title: "英语，俄语，西班牙语，下种语是什么？"
 date: 2021-06-22
 type: "post"
 slug: "next"
+isCJKLanguage: true
 draft: false
 ---
 

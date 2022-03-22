@@ -3,6 +3,7 @@ title: "你好，世界！我第一个用中文写的博文"
 date: 2020-12-20
 type: "post"
 slug: "hello"
+isCJKLanguage: true
 draft: false
 ---
 

@@ -3,6 +3,7 @@ title: "怎么选择做什么"
 date: 2021-07-28
 type: "post"
 slug: "choices"
+isCJKLanguage: true
 draft: false
 ---
 

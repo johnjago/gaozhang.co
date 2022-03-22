@@ -3,6 +3,7 @@ title: "我现在用来练习中文的资料"
 date: 2021-04-29
 type: "post"
 slug: "resources"
+isCJKLanguage: true
 draft: false
 ---
 

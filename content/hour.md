@@ -3,6 +3,7 @@ title: "一钟头"
 date: 2021-05-22
 type: "post"
 slug: "hour"
+isCJKLanguage: true
 draft: false
 ---
 
