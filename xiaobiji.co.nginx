@@ -1,0 +1,38 @@
+server {
+	server_name          www.xiaobiji.co;
+	listen               *:80;
+	listen               *:443 ssl;
+	listen               [::]:80;
+	listen               [::]:443 ssl;
+	ssl_certificate      /etc/letsencrypt/live/xiaobiji.co/fullchain.pem; # managed by Certbot
+	ssl_certificate_key  /etc/letsencrypt/live/xiaobiji.co/privkey.pem; # managed by Certbot
+
+	return 301 https://xiaobiji.co$request_uri;
+}
+
+server {
+	server_name          xiaobiji.co;
+	listen               *:80;
+	listen               [::]:80;
+
+	return 301 https://xiaobiji.co$request_uri;
+}
+
+server {
+	server_name          xiaobiji.co;
+	listen               443 ssl http2;
+	listen               [::]:443 ssl http2;
+	ssl_certificate      /etc/letsencrypt/live/xiaobiji.co/fullchain.pem; # managed by Certbot
+	ssl_certificate_key  /etc/letsencrypt/live/xiaobiji.co/privkey.pem; # managed by Certbot
+
+	root /home/john/xiaobiji.co;
+	index index.html;
+
+	location / {
+		try_files $uri $uri/ =404;
+	}
+
+	location ~* \.(png|css|js|woff)$ {
+		expires 1y;
+	}
+}
