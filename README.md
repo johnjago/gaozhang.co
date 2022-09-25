@@ -1,7 +1,7 @@
-# 小笔记
+# 高彰.co
 
-这是我的中文博客。
+这是我的中文博客
 
-[xiaobiji.co](https://xiaobiji.co)
+[gaozhang.co](https://gaozhang.co)
 
-小笔记意思是“Little Note”因为我不久前开始学习中文，写很长的博文太难了。
+原来叫小笔记，意思是“Little Note”因为我开始学习中文的时候，写很长的博文太难了

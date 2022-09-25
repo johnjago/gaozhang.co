@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "zh-cn"
 defaultContentLanguage = "zh"
-title = "小笔记"
+title = "高彰的小笔记"
 theme = "timeless"
 rssLimit = 25
 

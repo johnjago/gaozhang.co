@@ -1,0 +1,38 @@
+server {
+	server_name          www.gaozhang.co;
+	listen               *:80;
+	listen               *:443 ssl;
+	listen               [::]:80;
+	listen               [::]:443 ssl;
+	ssl_certificate      /etc/letsencrypt/live/gaozhang.co/fullchain.pem; # managed by Certbot
+	ssl_certificate_key  /etc/letsencrypt/live/gaozhang.co/privkey.pem; # managed by Certbot
+
+	return 301 https://gaozhang.co$request_uri;
+}
+
+server {
+	server_name          gaozhang.co;
+	listen               *:80;
+	listen               [::]:80;
+
+	return 301 https://gaozhang.co$request_uri;
+}
+
+server {
+	server_name          gaozhang.co;
+	listen               443 ssl http2;
+	listen               [::]:443 ssl http2;
+	ssl_certificate      /etc/letsencrypt/live/gaozhang.co/fullchain.pem; # managed by Certbot
+	ssl_certificate_key  /etc/letsencrypt/live/gaozhang.co/privkey.pem; # managed by Certbot
+
+	root /home/john/gaozhang.co;
+	index index.html;
+
+	location / {
+		try_files $uri $uri/ =404;
+	}
+
+	location ~* \.(png|css|js|woff)$ {
+		expires 1y;
+	}
+}
