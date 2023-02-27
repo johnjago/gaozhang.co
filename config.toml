@@ -11,6 +11,7 @@ rssLimit = 25
   footerSymbol = "&"
   allPostsText = "阅读更多"
   serif = false
+  script = '<script src="https://zhidao.johnjago.com/script.js" data-site="ZKQBUYCC" defer></script>'
 
 [menu]
   [[menu.main]]
