@@ -2,15 +2,12 @@ baseURL = "/"
 languageCode = "zh-cn"
 defaultContentLanguage = "zh"
 title = "高彰的小笔记"
-theme = "timeless"
 rssLimit = 25
 
 [params]
   description = "一个美国人用中文分享生活有趣的事情，有用的原则。"
   headerAllPostsText = "所有帖子"
-  footerSymbol = "&"
   allPostsText = "阅读更多"
-  serif = false
   script = '<script src="https://zhidao.johnjago.com/script.js" data-site="ZKQBUYCC" defer></script>'
 
 [menu]

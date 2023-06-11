@@ -1,0 +1,19 @@
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="{{ if .IsHome }}{{ $.Site.Params.Description }}{{ else }}{{ .Summary | plainify }}{{ end }}" />
+	<base href="{{ .Site.BaseURL }}">
+	<title>{{ if .IsHome }}{{ $.Site.Title }}{{ else }}{{ .Title }} ⸺ {{ $.Site.Title }}{{ end }}</title>
+	<link rel="canonical" href="{{ .Permalink }}">
+	<link rel="stylesheet" href="{{ "css/main.css" | absURL }}" />
+	<link rel="shortcut icon" href="{{ "images/favicon.png" | absURL }}" />
+	{{ template "_internal/twitter_cards.html" . }}
+	{{ template "_internal/opengraph.html" . }}
+	{{ if .Site.Params.script }}
+		{{ .Site.Params.script | safeHTML }}
+	{{ end }}
+	<script>
+		// To prevent Firefox flash of unstyled content
+		let FF_FOUC_FIX;
+	</script>
+</head>
