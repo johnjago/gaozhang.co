@@ -17,5 +17,5 @@ rssLimit = 25
     weight = 1
   [[menu.main]]
     name = "英文"
-    url = "https://johnjago.com/blog"
+    url = "https://johnjago.com/blog/"
     weight = 2
