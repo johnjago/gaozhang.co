@@ -1,6 +1,4 @@
-all: build deploy
-
-run:
+serve:
 	hugo serve
 
 build:
@@ -8,6 +6,8 @@ build:
 
 deploy:
 	rsync -rP --delete public/ john@johnjago.com:/home/john/gaozhang.co/
+
+publish: build deploy
 
 clean:
 	rm -r public/
