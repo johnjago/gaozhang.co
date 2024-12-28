@@ -67,6 +67,10 @@ article img {
 	max-width: 100%;
 }
 
+article ol {
+	margin-left: 2rem;
+}
+
 li {
 	margin: 0.5rem 0;
 }
